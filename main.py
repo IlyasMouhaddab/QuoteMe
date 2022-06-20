@@ -1,6 +1,7 @@
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.core.window import Window
+from kivy.uix.widget import Widget
 
 # Creating The Design File
 designFile = Builder.load_file("design.kv")
